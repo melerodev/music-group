@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music Band - Official Website</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav id="navbar">
+    <div class="container">
+      <a href="#hero" class="logo">BON JOVI</a>
+
+      <!-- Desktop Navigation -->
+      <div class="nav-links">
+        <a href="#hero" class="nav-link">HOME</a>
+        <a href="#biography" class="nav-link">Biography</a>
+        <a href="#discography" class="nav-link">Discography</a>
+        <a href="#music" class="nav-link">MUSIC</a>
+        <a href="#concerts" class="nav-link">CONCERTS</a>
+        <a href="#contact" class="nav-link">CONTACT</a>
+      </div>
+
+      <!-- Mobile Menu Button -->
+      <button id="menu-toggle" aria-label="Open menu">
+        <span class="menu-icon"></span>
+      </button>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="mobile-menu">
+      <a href="#hero" class="mobile-link">Home</a>
+      <a href="#biography" class="mobile-link">Biography</a>
+      <a href="#discography" class="mobile-link">Discography</a>
+      <a href="#music" class="mobile-link">Music</a>
+      <a href="#contact" class="mobile-link">Contact</a>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero-section">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <h1>BON JOVI</h1>
+      <p>Official site of the legendary rock band. Explore our music, history, and upcoming events.</p>
+      <a href="#music" class="btn primary-btn">Escuchar Ahora</a>
+    </div>
+    <a href="#biography" class="scroll-down" aria-label="Desplazar hacia abajo">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M12 5V19M12 19L19 12M12 19L5 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </a>
+  </section>
+
+  <!-- Biography Section -->
+  <section id="biography" class="biography-section">
+    <div class="container">
+      <h2 class="section-title">Our <span class="highlight">History</span></h2>
+
+      <div class="biography-content">
+        <div class="biography-image">
+          <img src="assets/img/jon.jpg" alt="Band members">
+        </div>
+
+        <div class="biography-text">
+          <p>Formed in 1983, Bon Jovi became one of the biggest rock bands in the world, known for anthems like "Livin'
+            on a Prayer" and "It's My Life." With over 130 million records sold, they continue to shape the music
+            industry.</p>
+
+          <div class="band-members">
+            <h3>Band Members</h3>
+            <ul>
+              <li>Jon Bon Jovi - Lead Vocals, Guitar</li>
+              <li>David Bryan - Keyboards, Backing Vocals</li>
+              <li>Tico Torres - Drums</li>
+              <li>Phil X - Lead Guitar</li>
+              <li>Hugh McDonald - Bass</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Discography Section -->
+  <section id="discography" class="discography-section">
+    <div class="container">
+      <h2 class="section-title">Our <span class="highlight">Discography</span></h2>
+
+      <div class="album-carousel">
+        <div class="carousel-container">
+          <div class="carousel-track">
+            <!-- Static Albums -->
+            <div class="album-slide">
+              <div class="album-cover">
+                <img src="assets/img/slippery_when_wet.jpg" alt="Slippery When Wet">
+              </div>
+              <div class="album-info">
+                <span class="album-year">1986</span>
+                <h3 class="album-title">Slippery When Wet</h3>
+                <p class="album-description">Featuring "Livin' on a Prayer" and "You Give Love a Bad Name."</p>
+              </div>
+            </div>
+            <div class="album-slide">
+              <div class="album-cover">
+                <img src="assets/img/keep_the_faith.jpg" alt="Keep the Faith">
+              </div>
+              <div class="album-info">
+                <span class="album-year">1992</span>
+                <h3 class="album-title">Keep the Faith</h3>
+                <p class="album-description">Hits like "Bed of Roses" and "Keep the Faith."</p>
+              </div>
+            </div>
+            <div class="album-slide">
+              <div class="album-cover">
+                <img src="assets/img/new_jersey.jpg" alt="New Jersey">
+              </div>
+              <div class="album-info">
+                <span class="album-year">1988</span>
+                <h3 class="album-title">New Jersey</h3>
+                <p class="album-description">Includes hits like "Bad Medicine" and "I'll Be There for You."</p>
+              </div>
+            </div>
+            <div class="album-slide">
+              <div class="album-cover">
+                <img src="assets/img/crush.jpg" alt="Crush">
+              </div>
+              <div class="album-info">
+                <span class="album-year">2000</span>
+                <h3 class="album-title">Crush</h3>
+                <p class="album-description">Featuring "It's My Life" and "Thank You for Loving Me."</p>
+              </div>
+            </div>
+            <div class="album-slide">
+              <div class="album-cover">
+                <img src="assets/img/these_days.jpg" alt="These Days">
+              </div>
+              <div class="album-info">
+                <span class="album-year">1995</span>
+                <h3 class="album-title">These Days</h3>
+                <p class="album-description">Known for tracks like "This Ain't a Love Song" and "Something for the Pain."</p>
+              </div>
+            </div>
+            <div class="album-slide">
+              <div class="album-cover">
+                <img src="assets/img/lost_highway.jpg" alt="Lost Highway">
+              </div>
+              <div class="album-info">
+                <span class="album-year">2007</span>
+                <h3 class="album-title">Lost Highway</h3>
+                <p class="album-description">Featuring "Lost Highway" and "Make a Memory."</p>
+              </div>
+            </div>
+            <div class="album-slide">
+              <div class="album-cover">
+                <img src="assets/img/bounce.jpg" alt="Bounce">
+              </div>
+              <div class="album-info">
+                <span class="album-year">2002</span>
+                <h3 class="album-title">Bounce</h3>
+                <p class="album-description">Includes "Everyday" and "Misunderstood."</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <button class="carousel-btn prev-btn" aria-label="Last album">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M15 18L9 12L15 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round" />
+          </svg>
+        </button>
+
+        <button class="carousel-btn next-btn" aria-label="Next album">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M9 18L15 12L9 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round" />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Music Player Section -->
+  <section id="music" class="music-section">
+    <div class="container">
+      <h2 class="section-title">Listen to our <span class="highlight">Music</span></h2>
+
+      <div class="music-player">
+        <div class="track-list" id="track-list">
+          <div class="track-item active">
+            <div class="track-info">
+              <div class="track-icon">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M8 5V19L19 12L8 5Z" fill="currentColor"></path>
+                </svg>
+              </div>
+              <div class="track-details">
+                <h3>Livin' on a Prayer</h3>
+                <p>Slippery When Wet</p>
+              </div>
+            </div>
+            <span class="track-duration">4:09</span>
+          </div>
+          <div class="track-item">
+            <div class="track-info">
+              <div class="track-icon">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M8 5V19L19 12L8 5Z" fill="currentColor"></path>
+                </svg>
+              </div>
+              <div class="track-details">
+                <h3>It's My Life</h3>
+                <p>Crush</p>
+              </div>
+            </div>
+            <span class="track-duration">3:44</span>
+          </div>
+          <div class="track-item">
+            <div class="track-info">
+              <div class="track-icon">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M8 5V19L19 12L8 5Z" fill="currentColor"></path>
+                </svg>
+              </div>
+              <div class="track-details">
+                <h3>Bed of Roses</h3>
+                <p>Keep the Faith</p>
+              </div>
+            </div>
+            <span class="track-duration">6:34</span>
+          </div>
+          <div class="track-item">
+            <div class="track-info">
+              <div class="track-icon">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M8 5V19L19 12L8 5Z" fill="currentColor"></path>
+                </svg>
+              </div>
+              <div class="track-details">
+                <h3>Always</h3>
+                <p>Cross Road</p>
+              </div>
+            </div>
+            <span class="track-duration">5:53</span>
+          </div>
+          <div class="track-item">
+            <div class="track-info">
+              <div class="track-icon">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M8 5V19L19 12L8 5Z" fill="currentColor"></path>
+                </svg>
+              </div>
+              <div class="track-details">
+                <h3>Runaway</h3>
+                <p>Bon Jovi</p>
+              </div>
+            </div>
+            <span class="track-duration">3:50</span>
+          </div>
+        </div>
+        <div class="player-controls">
+          <div class="time-control">
+            <span id="current-time">0:00</span>
+            <div class="progress-container">
+              <div class="progress-bar" id="progress-bar">
+                <div class="progress" id="progress"></div>
+              </div>
+            </div>
+            <span id="duration">0:00</span>
+          </div>
+          <div class="main-controls">
+            <div class="volume-control">
+              <button id="mute-btn" class="control-btn" aria-label="Mute">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M11 5L6 9H2V15H6L11 19V5Z" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                  <path d="M19.07 4.93C20.9447 6.80528 21.9979 9.34836 22 12C22 14.6522 20.9464 17.1957 19.0711 19.0711"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                  <path
+                    d="M15.54 8.46C16.4774 9.39764 17.0039 10.6692 17.0039 11.995C17.0039 13.3208 16.4774 14.5924 15.54 15.53"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </button>
+              <div class="volume-slider-container">
+                <input type="range" id="volume-slider" min="0" max="1" step="0.01" value="0.7" class="volume-slider">
+              </div>
+            </div>
+
+            <div class="playback-controls">
+              <button id="prev-track-btn" class="control-btn" aria-label="Pista anterior">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M19 20L9 12L19 4V20Z" fill="currentColor" />
+                  <rect x="5" y="4" width="4" height="16" fill="currentColor" />
+                </svg>
+              </button>
+
+              <button id="play-btn" class="play-btn" aria-label="Play">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                  class="play-icon">
+                  <path d="M8 5V19L19 12L8 5Z" fill="currentColor" />
+                </svg>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                  class="pause-icon hidden">
+                  <path d="M10 4H6V20H10V4Z" fill="currentColor" />
+                  <path d="M18 4H14V20H18V4Z" fill="currentColor" />
+                </svg>
+              </button>
+
+              <button id="next-track-btn" class="control-btn" aria-label="Siguiente pista">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M5 4L15 12L5 20V4Z" fill="currentColor" />
+                  <rect x="15" y="4" width="4" height="16" fill="currentColor" />
+                </svg>
+              </button>
+            </div>
+
+            <div class="spacer"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="streaming-links">
+        <p>Escucha nuestros álbumes completos en tus plataformas de streaming favoritas</p>
+        <div class="streaming-platforms">
+          <a href="#" class="platform-link">Spotify</a>
+          <a href="#" class="platform-link">Apple Music</a>
+          <a href="#" class="platform-link">YouTube Music</a>
+          <a href="#" class="platform-link">Amazon Music</a>
+        </div>
+      </div>
+    </div>
+
+    <audio id="audio-player"></audio>
+  </section>
+
+  <section id="concerts" class="concerts">
+    <h2 class="section-title">Our <span class="highlight">Concerts</span></h2>
+    <div class="container">
+      <div class="concerts-grid">
+        <div class="concert">
+          <img src="assets/img/rock_in_rio.jpg" alt="Concert">
+          <h1 class="concert-title">Rock in Rio</h1>
+          <div class="date">
+            <i class="fa-solid fa-calendar" style="color: #e21d48;"></i>
+            <p class="concert-date">15/09/2024</p>
+          </div>
+          <div class="ubication">
+            <i class="fa-solid fa-location-dot" style="color: #e21d48;"></i>
+            <p class="concert-location">Brazil, Rio de Janeiro</p>
+          </div>
+          <button class="btn primary-btn">Reserve now</button>
+        </div>
+        <div class="concert">
+          <img src="assets/img/madison_square_garden.jpg" alt="Concert">
+          <h1 class="concert-title">Madison Square Garden</h1>
+          <div class="date">
+            <i class="fa-solid fa-calendar" style="color: #e21d48;"></i>
+            <p class="concert-date">10/11/2024</p>
+          </div>
+          <div class="ubication">
+            <i class="fa-solid fa-location-dot" style="color: #e21d48;"></i>
+            <p class="concert-location">USA, New York</p>
+          </div>
+          <button class="btn primary-btn">Reserve now</button>
+        </div>
+        <div class="concert">
+          <img src="assets/img/wembley_stadium.jpg" alt="Concert">
+          <h1 class="concert-title">Wembley Stadium</h1>
+          <div class="date">
+            <i class="fa-solid fa-calendar" style="color: #e21d48;"></i>
+            <p class="concert-date">05/06/2025</p>
+          </div>
+          <div class="ubication">
+            <i class="fa-solid fa-location-dot" style="color: #e21d48;"></i>
+            <p class="concert-location">UK, London</p>
+          </div>
+          <button class="btn primary-btn">Reserve now</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección Contacto -->
+  <section id="contact" class="contact-section">
+    <div class="container">
+      <h2 class="section-title">Get in <span class="highlight">Touch</span></h2>
+
+      <div class="contact-content">
+        <div class="contact-info">
+            <h3>Contact Information</h3>
+            <p>Do you have questions about bookings, collaborations, or just want to say hello? Reach out to us using the
+            form or contact us directly.</p>
+
+          <div class="contact-details">
+            <div class="contact-item">
+              <div class="contact-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M4 4H20C21.1 4 22 4.9 22 6V18C22 19.1 21.1 20 20 20H4C2.9 20 2 19.1 2 18V6C2 4.9 2.9 4 4 4Z"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                  <path d="M22 6L12 13L2 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                </svg>
+              </div>
+              <div>
+                <h4>Email</h4>
+                <p>contact@bandname.com</p>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M22 16.92V19.92C22 20.4704 21.7893 20.9996 21.4142 21.3747C21.0391 21.7498 20.5099 21.9605 19.96 21.96C16.4223 21.6505 13.0418 20.3799 10.17 18.31C7.50277 16.4217 5.30727 13.9716 3.78 11.07C1.74 8.15986 0.509996 4.75957 0.200001 1.20001C0.199616 0.650407 0.410054 0.121913 0.784807 -0.252733C1.15956 -0.627379 1.68836 -0.838094 2.24 -0.839996H5.24C6.24768 -0.851403 7.07357 0.359304 7.28 1.34001C7.46589 2.51186 7.81427 3.65101 8.31 4.72001C8.60206 5.40403 8.49965 6.18454 8.04 6.76001L6.67 8.13001C8.08082 10.9447 10.3553 13.2192 13.17 14.63L14.54 13.26C15.1155 12.8004 15.896 12.698 16.58 12.99C17.649 13.4857 18.7881 13.8341 19.96 14.02C20.9583 14.2322 21.8125 15.0693 21.79 16.09L22 16.92Z"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </div>
+              <div>
+                <h4>Manager Phone</h4>
+                <p>+1 (555) 123-4567</p>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M21 10C21 17 12 23 12 23C12 23 3 17 3 10C3 7.61305 3.94821 5.32387 5.63604 3.63604C7.32387 1.94821 9.61305 1 12 1C14.3869 1 16.6761 1.94821 18.364 3.63604C20.0518 5.32387 21 7.61305 21 10Z"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                  <path
+                    d="M12 13C13.6569 13 15 11.6569 15 10C15 8.34315 13.6569 7 12 7C10.3431 7 9 8.34315 9 10C9 11.6569 10.3431 13 12 13Z"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </div>
+              <div>
+                <h4>Management</h4>
+                <p>
+                  Music Management Inc.<br>
+                  123 Music Avenue<br>
+                  New York, NY 10001
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="social-media">
+            <h3>Follow us</h3>
+            <div class="social-icons">
+              <a href="#" class="social-icon" aria-label="Instagram">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+                </svg>
+              </a>
+              <a href="#" class="social-icon" aria-label="X">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723 10.054 10.054 0 01-3.127 1.184 4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z" />
+                </svg>
+              </a>
+              <a href="#" class="social-icon" aria-label="Facebook">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+                </svg>
+              </a>
+              <a href="#" class="social-icon" aria-label="YouTube">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form-container">
+          <form id="contact-form" class="contact-form">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="Your name" required>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="Your email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" placeholder="Subject" required>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" placeholder="Your message" rows="5" required></textarea>
+            </div>
+
+            <button type="submit" class="btn primary-btn submit-btn">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M22 2L11 13" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round" />
+                <path d="M22 2L15 22L11 13L2 9L22 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round" />
+              </svg>
+              Send message
+            </button>
+            <div id="form-status" class="form-status"></div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <!-- Logo y Descripción -->
+        <div class="footer-info">
+          <h3 class="footer-logo">BON JOVI</h3>
+            <p>Creating unforgettable musical experiences since 1983. Join us on our journey with Bon Jovi.</p>
+        </div>
+
+        <!-- Enlaces Rápidos -->
+        <div class="footer-links">
+            <h4>Quick Links</h4>
+            <ul>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#biography">Biography</a></li>
+            <li><a href="#discography">Discography</a></li>
+            <li><a href="#music">Music</a></li>
+            <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+
+        <!-- Redes Sociales y Newsletter -->
+        <div class="footer-connect">
+            <h4>Connect With Us</h4>
+          <div class="footer-social">
+            <a href="#" class="footer-social-icon" aria-label="Instagram">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+              </svg>
+            </a>
+            <a href="#" class="footer-social-icon" aria-label="X">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723 10.054 10.054 0 01-3.127 1.184 4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z" />
+              </svg>
+            </a>
+            <a href="#" class="footer-social-icon" aria-label="Facebook">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+              </svg>
+            </a>
+            <a href="#" class="footer-social-icon" aria-label="YouTube">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" />
+              </svg>
+            </a>
+            <a href="#" class="footer-social-icon" aria-label="Spotify">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.48.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z" />
+              </svg>
+            </a>
+          </div>
+          <div class="newsletter">
+            <p>Subscribe to our newsletter:</p>
+            <div class="newsletter-form">
+              <input type="email" placeholder="Tu email" class="newsletter-input">
+              <button class="newsletter-btn">Suscribir</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- <div class="copyright">
+        <p>&copy; <span id="current-year"></span> Nombre Banda. Todos los derechos reservados.</p>
+      </div> -->
+    </div>
+  </footer>
+
+  <script src="src/js/script.js"></script>
+</body>
+
+</html>
