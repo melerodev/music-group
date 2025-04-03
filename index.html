@@ -1,10 +1,12 @@
 <!DOCTYPE html>
-<html lang="en"></html>
+<html lang="en">
+
+</html>
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Music Band - Official Website</title>
+  <title>Bon Jovi - Official Website</title>
   <link rel="stylesheet" href="assets/css/styles.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
@@ -43,15 +45,28 @@
 
   <!-- Hero Section -->
   <section id="hero" class="hero-section">
-    <div class="hero-overlay"></div>
+    <!-- Video de fondo -->
+    <div class="hero-video-container">
+      <video class="hero-video" autoplay muted loop playsinline>
+        <source src="/assets/videos/video.mp4" type="video/mp4">
+        <source src="/assets/img/video.mp4" type="video/webm">
+        Tu navegador no soporta videos HTML5.
+      </video>
+      <div class="hero-overlay"></div>
+    </div>
+    
+    <!-- Contenido del hero -->
     <div class="container hero-content">
       <h1>BON JOVI</h1>
       <p>Official site of the legendary rock band. Explore our music, history, and upcoming events.</p>
       <a href="#music" class="btn primary-btn">Escuchar Ahora</a>
     </div>
+    
+    <!-- Botón de scroll down -->
     <a href="#biography" class="scroll-down" aria-label="Desplazar hacia abajo">
       <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M12 5V19M12 19L19 12M12 19L5 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M12 5V19M12 19L19 12M12 19L5 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+          stroke-linejoin="round" />
       </svg>
     </a>
   </section>
@@ -142,7 +157,8 @@
               <div class="album-info">
                 <span class="album-year">1995</span>
                 <h3 class="album-title">These Days</h3>
-                <p class="album-description">Known for tracks like "This Ain't a Love Song" and "Something for the Pain."</p>
+                <p class="album-description">Known for tracks like "This Ain't a Love Song" and "Something for the
+                  Pain."</p>
               </div>
             </div>
             <div class="album-slide">
@@ -334,54 +350,241 @@
         </div>
       </div>
     </div>
-
     <audio id="audio-player"></audio>
   </section>
 
-  <section id="concerts" class="concerts">
-    <h2 class="section-title">Our <span class="highlight">Concerts</span></h2>
+  <section id="concerts" class="concerts-section">
     <div class="container">
-      <div class="concerts-grid">
-        <div class="concert">
-          <img src="assets/img/rock_in_rio.jpg" alt="Concert">
-          <h1 class="concert-title">Rock in Rio</h1>
-          <div class="date">
-            <i class="fa-solid fa-calendar" style="color: #e21d48;"></i>
-            <p class="concert-date">15/09/2024</p>
+      <h2 class="section-title">Our <span class="highlight">Concerts</span></h2>
+      <div id="america" class="concerts-container">
+        <div class="tour-header">
+          <img src="assets/img/america.jpg" alt="Concert crowd with performer on stage" class="tour-image">
+          <div class="tour-overlay">
+            <h3 class="tour-title">Tour <span class="highlight">America</span></h3>
           </div>
-          <div class="ubication">
-            <i class="fa-solid fa-location-dot" style="color: #e21d48;"></i>
-            <p class="concert-location">Brazil, Rio de Janeiro</p>
-          </div>
-          <button class="btn primary-btn">Reserve now</button>
         </div>
-        <div class="concert">
-          <img src="assets/img/madison_square_garden.jpg" alt="Concert">
-          <h1 class="concert-title">Madison Square Garden</h1>
-          <div class="date">
-            <i class="fa-solid fa-calendar" style="color: #e21d48;"></i>
-            <p class="concert-date">10/11/2024</p>
+        
+        <div class="concerts-table">
+          <div class="table-header">
+            <div class="header-city">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.or</svg>g/2000/svg">
+                <path d="M3 21h18v-2H3v2zm0-4h18v-2H3v2zm0-4h18v-2H3v2zm0-4h18V7H3v2zm0-6v2h18V3H3z" fill="currentColor"/>
+              </svg>
+              <span>City</span>
+            </div>
+            <div class="header-date">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M19 4h-1V2h-2v2H8V2H6v2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V10h14v10zm0-12H5V6h14v2z" fill="currentColor"/>
+              </svg>
+              <span>Date</span>
+            </div>
+            <div class="header-location">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" fill="currentColor"/>
+              </svg>
+              <span>Location</span>
+            </div>
+            <div class="header-action"></div>
           </div>
-          <div class="ubication">
-            <i class="fa-solid fa-location-dot" style="color: #e21d48;"></i>
-            <p class="concert-location">USA, New York</p>
+          
+          <div class="concert-item">
+            <div class="concert-city">New York</div>
+            <div class="concert-date">20/08/2027</div>
+            <div class="concert-location">New York</div>
+            <div class="concert-action">
+              <button class="buy-btn">Buy now</button>
+            </div>
           </div>
-          <button class="btn primary-btn">Reserve now</button>
-        </div>
-        <div class="concert">
-          <img src="assets/img/wembley_stadium.jpg" alt="Concert">
-          <h1 class="concert-title">Wembley Stadium</h1>
-          <div class="date">
-            <i class="fa-solid fa-calendar" style="color: #e21d48;"></i>
-            <p class="concert-date">05/06/2025</p>
+          
+          <div class="concert-item">
+            <div class="concert-city">Los Angeles</div>
+            <div class="concert-date">25/07/2020</div>
+            <div class="concert-location">California</div>
+            <div class="concert-action">
+              <button class="buy-btn">Buy now</button>
+            </div>
           </div>
-          <div class="ubication">
-            <i class="fa-solid fa-location-dot" style="color: #e21d48;"></i>
-            <p class="concert-location">UK, London</p>
+          
+          <div class="concert-item">
+            <div class="concert-city">Chicago</div>
+            <div class="concert-date">11/08/2015</div>
+            <div class="concert-location">Illinois</div>
+            <div class="concert-action">
+              <button class="buy-btn">Buy now</button>
+            </div>
           </div>
-          <button class="btn primary-btn">Reserve now</button>
+          
+          <div class="concert-item">
+            <div class="concert-city">Houston</div>
+            <div class="concert-date">06/19/2018</div>
+            <div class="concert-location">Texas</div>
+            <div class="concert-action">
+              <button class="buy-btn">Buy now</button>
+            </div>
+          </div>
+          
+          <div class="concert-item">
+            <div class="concert-city">Miami</div>
+            <div class="concert-date">09/30/2022</div>
+            <div class="concert-location">Florida</div>
+            <div class="concert-action">
+              <button class="buy-btn">Buy now</button>
+            </div>
+          </div>
+          
+          <div class="concert-item">
+            <div class="concert-city">Seattle</div>
+            <div class="concert-date">02/14/2019</div>
+            <div class="concert-location">Washington</div>
+            <div class="concert-action">
+              <button class="buy-btn">Buy now</button>
+            </div>
+          </div>
+          
+          <div class="concert-item">
+            <div class="concert-city">Denver</div>
+            <div class="concert-date">05/05/2016</div>
+            <div class="concert-location">Colorado</div>
+            <div class="concert-action">
+              <button class="buy-btn">Buy now</button>
+            </div>
+          </div>
+          
+          <div class="concert-item">
+            <div class="concert-city">Boston</div>
+            <div class="concert-date">08/21/2021</div>
+            <div class="concert-location">Massachusetts</div>
+            <div class="concert-action">
+              <button class="buy-btn">Buy now</button>
+            </div>
+          </div>
+          
+          <div class="concert-item">
+            <div class="concert-city">San Diego</div>
+            <div class="concert-date">12/03/2014</div>
+            <div class="concert-location">California</div>
+            <div class="concert-action">
+              <button class="buy-btn">Buy now</button>
+            </div>
+          </div>
+          
+          <div class="concert-item">
+            <div class="concert-city">Las Vegas</div>
+            <div class="concert-date">04/17/2023</div>
+            <div class="concert-location">Nevada</div>
+            <div class="concert-action">
+              <button class="buy-btn">Buy now</button>
+            </div>
+          </div>
         </div>
       </div>
+      <div></div>
+      <div class="concerts-container">
+        <div class="tour-header">
+          <img src="assets/img/rock_in_rio.jpg" alt="Concert crowd in Europe" class="tour-image">
+          <div class="tour-overlay">
+            <h3 class="tour-title">Tour <span class="highlight">Europe</span></h3>
+          </div>
+        </div>
+      
+        <div class="concerts-table">
+          <div class="table-header">
+            <div class="header-city">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M3 21h18v-2H3v2zm0-4h18v-2H3v2zm0-4h18v-2H3v2zm0-4h18V7H3v2zm0-6v2h18V3H3z" fill="currentColor"/>
+              </svg>
+              <span>City</span>
+            </div>
+            <div class="header-date">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M19 4h-1V2h-2v2H8V2H6v2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V10h14v10zm0-12H5V6h14v2z" fill="currentColor"/>
+              </svg>
+              <span>Date</span>
+            </div>
+            <div class="header-location">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" fill="currentColor"/>
+              </svg>
+              <span>Location</span>
+            </div>
+            <div class="header-action"></div>
+          </div>
+      
+          <div class="concert-item">
+            <div class="concert-city">London</div>
+            <div class="concert-date">10/09/2027</div>
+            <div class="concert-location">United Kingdom</div>
+            <div class="concert-action">
+              <button class="buy-btn">Buy now</button>
+            </div>
+          </div>
+      
+          <div class="concert-item">
+            <div class="concert-city">Paris</div>
+            <div class="concert-date">15/08/2026</div>
+            <div class="concert-location">France</div>
+            <div class="concert-action">
+              <button class="buy-btn">Buy now</button>
+            </div>
+          </div>
+      
+          <div class="concert-item">
+            <div class="concert-city">Berlin</div>
+            <div class="concert-date">22/07/2025</div>
+            <div class="concert-location">Germany</div>
+            <div class="concert-action">
+              <button class="buy-btn">Buy now</button>
+            </div>
+          </div>
+      
+          <div class="concert-item">
+            <div class="concert-city">Madrid</div>
+            <div class="concert-date">05/06/2024</div>
+            <div class="concert-location">Spain</div>
+            <div class="concert-action">
+              <button class="buy-btn">Buy now</button>
+            </div>
+          </div>
+      
+          <div class="concert-item">
+            <div class="concert-city">Rome</div>
+            <div class="concert-date">18/05/2023</div>
+            <div class="concert-location">Italy</div>
+            <div class="concert-action">
+              <button class="buy-btn">Buy now</button>
+            </div>
+          </div>
+      
+          <div class="concert-item">
+            <div class="concert-city">Amsterdam</div>
+            <div class="concert-date">12/04/2022</div>
+            <div class="concert-location">Netherlands</div>
+            <div class="concert-action">
+              <button class="buy-btn">Buy now</button>
+            </div>
+          </div>
+      
+          <div class="concert-item">
+            <div class="concert-city">Lisbon</div>
+            <div class="concert-date">27/03/2021</div>
+            <div class="concert-location">Portugal</div>
+            <div class="concert-action">
+              <button class="buy-btn">Buy now</button>
+            </div>
+          </div>
+      
+          <div class="concert-item">
+            <div class="concert-city">Vienna</div>
+            <div class="concert-date">09/02/2020</div>
+            <div class="concert-location">Austria</div>
+            <div class="concert-action">
+              <button class="buy-btn">Buy now</button>
+            </div>
+          </div>
+      
+        </div>
+      </div>
+      
     </div>
   </section>
 
@@ -392,8 +595,8 @@
 
       <div class="contact-content">
         <div class="contact-info">
-            <h3>Contact Information</h3>
-            <p>Do you have questions about bookings, collaborations, or just want to say hello? Reach out to us using the
+          <h3>Contact Information</h3>
+          <p>Do you have questions about bookings, collaborations, or just want to say hello? Reach out to us using the
             form or contact us directly.</p>
 
           <div class="contact-details">
@@ -492,7 +695,7 @@
             </div>
 
             <div class="form-group">
-                <label for="subject">Subject</label>
+              <label for="subject">Subject</label>
               <input type="text" id="subject" name="subject" placeholder="Subject" required>
             </div>
 
@@ -524,24 +727,24 @@
         <!-- Logo y Descripción -->
         <div class="footer-info">
           <h3 class="footer-logo">BON JOVI</h3>
-            <p>Creating unforgettable musical experiences since 1983. Join us on our journey with Bon Jovi.</p>
+          <p>Creating unforgettable musical experiences since 1983. Join us on our journey with Bon Jovi.</p>
         </div>
 
         <!-- Enlaces Rápidos -->
         <div class="footer-links">
-            <h4>Quick Links</h4>
-            <ul>
+          <h4>Quick Links</h4>
+          <ul>
             <li><a href="#hero">Home</a></li>
             <li><a href="#biography">Biography</a></li>
             <li><a href="#discography">Discography</a></li>
             <li><a href="#music">Music</a></li>
             <li><a href="#contact">Contact</a></li>
-            </ul>
+          </ul>
         </div>
 
         <!-- Redes Sociales y Newsletter -->
         <div class="footer-connect">
-            <h4>Connect With Us</h4>
+          <h4>Connect With Us</h4>
           <div class="footer-social">
             <a href="#" class="footer-social-icon" aria-label="Instagram">
               <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
