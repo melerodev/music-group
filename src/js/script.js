@@ -15,6 +15,9 @@ document.addEventListener("DOMContentLoaded", () => {
     this.classList.toggle("active")
     mobileMenu.classList.toggle("active")
   })
+  
+
+  document.getElementById("current-year").textContent = new Date().getFullYear()
 
   // Navegación con scroll
   const navLinks = document.querySelectorAll('.nav-link, .mobile-link, .scroll-down, .footer a[href^="#"]')

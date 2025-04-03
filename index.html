@@ -45,7 +45,7 @@
 
   <!-- Hero Section -->
   <section id="hero" class="hero-section">
-    <!-- Video de fondo -->
+    <!-- Background Video -->
     <div class="hero-video-container">
       <video class="hero-video" autoplay muted loop playsinline>
         <source src="/assets/videos/video.mp4" type="video/mp4">
@@ -55,14 +55,14 @@
       <div class="hero-overlay"></div>
     </div>
     
-    <!-- Contenido del hero -->
+    <!-- Hero Content -->
     <div class="container hero-content">
       <h1>BON JOVI</h1>
       <p>Official site of the legendary rock band. Explore our music, history, and upcoming events.</p>
       <a href="#music" class="btn primary-btn">Escuchar Ahora</a>
     </div>
     
-    <!-- Botón de scroll down -->
+    <!-- Buttom de scroll down -->
     <a href="#biography" class="scroll-down" aria-label="Desplazar hacia abajo">
       <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M12 5V19M12 19L19 12M12 19L5 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -82,9 +82,13 @@
         </div>
 
         <div class="biography-text">
-          <p>Formed in 1983, Bon Jovi became one of the biggest rock bands in the world, known for anthems like "Livin'
+          <p>
+            Formed in 1983, Bon Jovi became one of the biggest rock bands in the world, known for anthems like "Livin'
             on a Prayer" and "It's My Life." With over 130 million records sold, they continue to shape the music
-            industry.</p>
+            industry. Their journey has been marked by countless awards, sold-out tours, and a legacy that spans
+            generations. From their early days in New Jersey to becoming global icons, Bon Jovi's music resonates with
+            fans worldwide, inspiring hope, love, and resilience.
+          </p>
 
           <div class="band-members">
             <h3>Band Members</h3>
@@ -303,8 +307,7 @@
                 </svg>
               </button>
               <div class="volume-slider-container">
-                <input type="range" id="volume-slider" min="0" max="1" step="0.01" value="0.7" class="volume-slider">
-              </div>
+                <input type="range" id="volume-slider" aria-label="Control de volumen" min="0" max="1" step="0.01" value="0.7" class="volume-slider">              </div>
             </div>
 
             <div class="playback-controls">
@@ -341,7 +344,7 @@
       </div>
 
       <div class="streaming-links">
-        <p>Escucha nuestros álbumes completos en tus plataformas de streaming favoritas</p>
+        <p>Listen to our full albums on your favorite streaming platforms</p>
         <div class="streaming-platforms">
           <a href="#" class="platform-link">Spotify</a>
           <a href="#" class="platform-link">Apple Music</a>
@@ -588,7 +591,7 @@
     </div>
   </section>
 
-  <!-- Sección Contacto -->
+  <!-- Contact Section -->
   <section id="contact" class="contact-section">
     <div class="container">
       <h2 class="section-title">Get in <span class="highlight">Touch</span></h2>
@@ -738,6 +741,7 @@
             <li><a href="#biography">Biography</a></li>
             <li><a href="#discography">Discography</a></li>
             <li><a href="#music">Music</a></li>
+            <li><a href="#concerts">Concerts</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
@@ -781,15 +785,15 @@
             <p>Subscribe to our newsletter:</p>
             <div class="newsletter-form">
               <input type="email" placeholder="Tu email" class="newsletter-input">
-              <button class="newsletter-btn">Suscribir</button>
+                <button class="newsletter-btn">Subscribe</button>
             </div>
           </div>
         </div>
       </div>
 
-      <!-- <div class="copyright">
-        <p>&copy; <span id="current-year"></span> Nombre Banda. Todos los derechos reservados.</p>
-      </div> -->
+      <div class="copyright">
+        <p>&copy; <span id="current-year"></span> Bon Jovi. All rights reserved.</p>
+      </div>
     </div>
   </footer>
 
