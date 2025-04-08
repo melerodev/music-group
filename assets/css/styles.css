@@ -506,7 +506,7 @@ img {
 
 /* Music Player Section */
 .music-section {
-  background-color: var(--color-background);
+  background: linear-gradient(to bottom, var(--color-background), var(--color-background-alt));
   padding: 6rem 0;
 }
 
@@ -723,7 +723,7 @@ img {
 
 /* Concerts Section */
 .concerts-section {
-  background-color: var(--color-background);
+  background: linear-gradient(to bottom, var(--color-background-alt), var(--color-background));
   padding: 6rem 0;
 }
 
@@ -1091,7 +1091,7 @@ img {
 
 /* Team Members Section */
 .team-section {
-  background: linear-gradient(to bottom, var(--color-background-alt), var(--color-background));
+  background: linear-gradient(to bottom, var(--color-background-alt), var(--color-background), var(--color-background-alt));
   padding: 6rem 0;
 }
 
@@ -1176,7 +1176,7 @@ img {
 
 /* Gallery Section */
 .gallery-section {
-  background: linear-gradient(to bottom, var(--color-background), var(--color-background-alt));
+  background: linear-gradient(to bottom, var(--color-background-alt), var(--color-background));
   padding: 6rem 0;
 }
 
